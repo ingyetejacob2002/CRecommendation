@@ -1,0 +1,19 @@
+{
+    "project_root": "C:\\Users\\DELL\\Desktop\\projects\\Emmanuel Alia\\CropRecommendation",
+    "training_records": 1210,
+    "recommendation_records": 1210,
+    "unique_locations": 121,
+    "unique_crops": 10,
+    "model_features": 34,
+    "environmental_features": 33,
+    "crop_encoding_feature": "crop_encoded",
+    "corrected_model": "C:\\Users\\DELL\\Desktop\\projects\\Emmanuel Alia\\CropRecommendation\\models\\corrected\\crop_suitability_model_corrected.joblib",
+    "engine_path": "C:\\Users\\DELL\\Desktop\\projects\\Emmanuel Alia\\CropRecommendation\\models\\recommendation_engine\\unbiased_crop_recommendation_engine.joblib",
+    "top1_dominant_crop": "Maize",
+    "top1_dominance_percentage": 47.93388429752066,
+    "top1_number_of_locations": 121,
+    "top3_records": 363,
+    "top5_records": 605,
+    "environmental_features_missing_before_merge": [],
+    "output_directory": "C:\\Users\\DELL\\Desktop\\projects\\Emmanuel Alia\\CropRecommendation\\data\\processed\\model_results\\unbiased_recommendation_engine"
+}

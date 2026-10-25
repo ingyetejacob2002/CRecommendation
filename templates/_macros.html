@@ -1,0 +1,58 @@
+{# Shared form definition + reusable field. Keeps id == name so script.js can target inputs by feature name. #}
+{% set sections = [
+  {"key":"location","title":"Location","blurb":"Where the site is.","cols":"two","fields":[
+    ("latitude","Latitude","°"),("longitude","Longitude","°")]},
+  {"key":"rain","title":"Rainfall","blurb":"How much water the site receives.","cols":"three","fields":[
+    ("mean_daily_precipitation_mm","Mean daily precipitation","mm"),
+    ("std_daily_precipitation_mm","Std. dev. daily precipitation","mm"),
+    ("min_daily_precipitation_mm","Minimum daily precipitation","mm"),
+    ("max_daily_precipitation_mm","Maximum daily precipitation","mm"),
+    ("total_precipitation_mm","Total precipitation","mm"),
+    ("mean_annual_precipitation_mm","Mean annual precipitation","mm")]},
+  {"key":"temp","title":"Temperature","blurb":"Typical heat and the extremes.","cols":"three","fields":[
+    ("mean_temperature_c","Mean temperature","°C"),
+    ("std_temperature_c","Std. dev. temperature","°C"),
+    ("min_temperature_c","Minimum temperature","°C"),
+    ("max_temperature_c","Maximum temperature","°C"),
+    ("mean_max_temperature_c","Mean maximum temperature","°C"),
+    ("absolute_max_temperature_c","Absolute maximum temperature","°C"),
+    ("mean_min_temperature_c","Mean minimum temperature","°C"),
+    ("absolute_min_temperature_c","Absolute minimum temperature","°C")]},
+  {"key":"air","title":"Humidity, sunlight and wind","blurb":"Air moisture, light and movement.","cols":"three","fields":[
+    ("mean_relative_humidity_percent","Mean relative humidity","%"),
+    ("minimum_relative_humidity_percent","Minimum relative humidity","%"),
+    ("maximum_relative_humidity_percent","Maximum relative humidity","%"),
+    ("mean_solar_radiation","Mean solar radiation",""),
+    ("minimum_solar_radiation","Minimum solar radiation",""),
+    ("maximum_solar_radiation","Maximum solar radiation",""),
+    ("mean_wind_speed","Mean wind speed",""),
+    ("minimum_wind_speed","Minimum wind speed",""),
+    ("maximum_wind_speed","Maximum wind speed","")]},
+  {"key":"soil","title":"Soil","blurb":"Chemistry and texture of the topsoil.","cols":"three","fields":[
+    ("soil_ph","Soil pH",""),
+    ("soil_organic_carbon_g_kg","Organic carbon","g/kg"),
+    ("soil_nitrogen_g_kg","Nitrogen","g/kg"),
+    ("clay_percent","Clay","%"),("sand_percent","Sand","%"),("silt_percent","Silt","%"),
+    ("cec_cmolc_kg","Cation exchange capacity","cmolc/kg"),
+    ("bulk_density_g_cm3","Bulk density","g/cm³")]}
+] %}
+
+{% macro number_field(name, label, unit='', value='', hint='') %}
+<div class="field">
+  <label for="{{ name }}">{{ label }}</label>
+  <div class="input-wrap">
+    <input
+      type="number"
+      inputmode="decimal"
+      step="any"
+      id="{{ name }}"
+      name="{{ name }}"
+      value="{{ value }}"
+      required
+      {% if hint %}aria-describedby="{{ name }}-hint"{% endif %}
+    >
+    {% if unit %}<span class="suffix" aria-hidden="true">{{ unit }}</span>{% endif %}
+  </div>
+  {% if hint %}<small id="{{ name }}-hint" class="field-hint">{{ hint }}</small>{% endif %}
+</div>
+{% endmacro %}

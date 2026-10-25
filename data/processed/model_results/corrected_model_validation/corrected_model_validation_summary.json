@@ -1,0 +1,20 @@
+{
+    "original_model": "C:\\Users\\DELL\\Desktop\\projects\\Emmanuel Alia\\CropRecommendation\\models\\final_crop_suitability_model.joblib",
+    "corrected_model": "C:\\Users\\DELL\\Desktop\\projects\\Emmanuel Alia\\CropRecommendation\\models\\corrected\\crop_suitability_model_corrected.joblib",
+    "test_records": 242,
+    "original_accuracy": 0.9793388429752066,
+    "corrected_accuracy": 0.9793388429752066,
+    "original_precision": 0.9652173913043478,
+    "corrected_precision": 0.9652173913043478,
+    "original_recall": 0.9910714285714286,
+    "corrected_recall": 0.9910714285714286,
+    "original_f1": 0.9779735682819384,
+    "corrected_f1": 0.9779735682819384,
+    "original_roc_auc": 0.9839629120879121,
+    "corrected_roc_auc": 0.9839629120879121,
+    "accuracy_change": 0.0,
+    "precision_change": 0.0,
+    "recall_change": 0.0,
+    "f1_change": 0.0,
+    "roc_auc_change": 0.0
+}

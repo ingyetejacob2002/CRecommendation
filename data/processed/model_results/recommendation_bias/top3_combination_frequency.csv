@@ -1,0 +1,6 @@
+top_3_crops,locations
+Bambara_groundnut | Cassava | Cowpea,79
+Bambara_groundnut | Cowpea | Groundnut,19
+Rice | Bambara_groundnut | Cassava,12
+Cassava | Cowpea | Groundnut,10
+Maize | Soybean | Bambara_groundnut,1

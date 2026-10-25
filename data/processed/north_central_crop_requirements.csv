@@ -1,0 +1,11 @@
+crop,temp_min_c,temp_max_c,rainfall_min_mm,rainfall_max_mm,ph_min,ph_max
+Maize,18,33,600,1200,5.0,7.0
+Rice,25,35,1500,2000,5.0,8.0
+Yam,25,32,1000,1500,6.4,6.7
+Cassava,20,32,1000,1500,5.0,7.0
+Soybean,20,33,600,1500,5.5,6.5
+Cowpea,20,35,600,1500,5.5,7.5
+Groundnut,22,32,600,1500,5.5,6.5
+Sorghum,22,35,400,600,5.5,7.5
+Millet,25,35,400,900,5.0,6.5
+Bambara_groundnut,19,30,750,1400,5.0,6.5

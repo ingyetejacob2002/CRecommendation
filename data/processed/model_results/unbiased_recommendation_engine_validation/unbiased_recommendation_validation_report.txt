@@ -1,0 +1,69 @@
+======================================================================
+UNBIASED CROP RECOMMENDATION ENGINE VALIDATION REPORT
+======================================================================
+
+OVERALL STATUS
+IMPROVED - Recommendation bias has been substantially reduced, although some crop-level limitations remain.
+
+DATASET SUMMARY
+Locations analyzed: 121
+Crops analyzed: 10
+Recommendation records: 1210
+
+ORIGINAL ENGINE
+Dominant crop: Bambara_groundnut
+Dominance: 80.99%
+
+REBUILT ENGINE
+Dominant crop: Maize
+Dominance: 47.93%
+
+BIAS REDUCTION
+Absolute reduction: 33.06 percentage points
+Relative reduction: 40.82%
+
+TOP-1 METRICS
+Crop coverage: 6/10
+Coverage percentage: 60.00%
+Normalized entropy: 0.7151
+HHI: 0.3406
+Effective number of crops: 3.6014
+
+TOP-3 METRICS
+Crop coverage: 9/10
+Coverage percentage: 90.00%
+Normalized entropy: 0.7401
+HHI: 0.2288
+
+TOP-5 METRICS
+Crop coverage: 9/10
+Coverage percentage: 90.00%
+Normalized entropy: 0.8467
+HHI: 0.1687
+
+EXCLUDED CROPS
+Top-1: Cowpea, Groundnut, Sorghum, Soybean
+Top-3: Sorghum
+Top-5: Sorghum
+
+LOCATION-LEVEL DIVERSITY
+Mean unique crops in Top-3: 3.0000
+Mean unique crops in Top-5: 5.0000
+
+POSITIVE FINDINGS
++ No single crop accounts for more than 50% of Top-1 recommendations.
++ Top-1 recommendation dominance decreased after rebuilding the recommendation engine.
++ Top-1 recommendation distribution has moderate-to-high diversity.
++ Top-1 concentration is below the high-concentration threshold.
+
+WARNINGS
+- 4 crop(s) never appear as a Top-1 recommendation.
+- 1 crop(s) never appear in Top-3 recommendations.
+- 1 crop(s) never appear in Top-5 recommendations.
+
+OUTPUT DIRECTORY
+C:\Users\DELL\Desktop\projects\Emmanuel Alia\CropRecommendation\data\processed\model_results\unbiased_recommendation_engine_validation
+
+======================================================================
+END OF VALIDATION REPORT
+======================================================================

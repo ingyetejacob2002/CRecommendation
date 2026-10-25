@@ -1,0 +1,35 @@
+# --- app.py changes (optional but recommended) ---------------------------
+# 1) Change the import line at the top to:
+from flask import Flask, render_template, request, jsonify
+
+# 2) Replace the whole health() route with this. Browsers now see a styled
+#    status page; scripts/curl and ?format=json still get the same JSON.
+@app.route("/health")
+def health():
+    payload = {
+        "status": "ok" if startup_error is None else "error",
+        "model_loaded": model is not None,
+        "engine_loaded": engine is not None,
+        "training_dataset_loaded": training_df is not None,
+        "recommendation_dataset_loaded": recommendation_df is not None,
+        "error": startup_error,
+    }
+    wants_json = request.args.get("format") == "json" or (
+        request.accept_mimetypes.best_match(["application/json", "text/html"])
+        == "application/json"
+    )
+    if wants_json:
+        return jsonify(payload)
+    return render_template("status.html", health=payload)
+
+# 3) In recommend(), replace the `if startup_error:` block so users see the
+#    error inside the page instead of raw JSON:
+    if startup_error:
+        return render_template(
+            "index.html",
+            crops=CROPS,
+            environmental_features=ENVIRONMENTAL_FEATURES,
+            locations=location_profiles,
+            startup_error=startup_error,
+            form_data=request.form,
+        ), 500

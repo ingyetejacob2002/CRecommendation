@@ -1,0 +1,2 @@
+total_locations,total_crops,total_predictions,recommended_predictions,recommended_percentage,not_recommended_predictions,mean_suitability_probability,high_confidence_predictions,high_confidence_percentage,unique_top3_combinations,top1_dominant_crop,top1_dominance_percentage
+121,10,1210,565,46.69,645,0.4644,556,45.95,5,Bambara_groundnut,80.99

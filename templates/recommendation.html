@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+{% from "_macros.html" import sections %}
+
+{% block title %}Results | CropWise{% endblock %}
+{% block head_scripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+{% endblock %}
+
+{% macro crop_row(item) %}
+{% set pct = '%.1f'|format(item.suitability_percentage) %}
+<li class="recommendation-row">
+  <div class="rank"><span class="visually-hidden">Rank </span>{{ item.rank }}</div>
+  <div class="crop-name">
+    <strong>{{ item.crop|replace("_", " ") }}</strong>
+    <span>{{ item.category }}</span>
+  </div>
+  <div class="bar-wrap">
+    <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{ pct }}"
+         aria-label="{{ item.crop|replace('_', ' ') }} suitability">
+      <div class="bar-fill" style="--w: {{ pct }}%;"></div>
+    </div>
+  </div>
+  <div class="percentage">{{ pct }}%</div>
+  <div class="status {{ 'suitable' if item.prediction == 1 else 'not-suitable' }}">{{ item.suitability_label }}</div>
+</li>
+{% endmacro %}
+
+{% block content %}
+<div class="container page-space">
+
+  <header class="results-header">
+    <div>
+      <h1>Your crop ranking</h1>
+      <p>Ordered by the model's suitability score for the conditions you entered.</p>
+    </div>
+    <div class="results-actions">
+      <button type="button" class="button ghost" id="printBtn">Print or save as PDF</button>
+      <a href="{{ url_for('index') }}" class="button secondary">Enter new conditions</a>
+    </div>
+  </header>
+
+  <section class="top-result" aria-labelledby="top-crop">
+    <div class="top-content">
+      <div class="top-text">
+        <span class="top-badge">Best match</span>
+        <h2 id="top-crop">{{ top1.crop|replace("_", " ") }}</h2>
+        <p>{{ top1.category }} · {{ top1.suitability_label }} for these conditions</p>
+      </div>
+      <div class="gauge" style="--pct: {{ '%.1f'|format(top1.suitability_percentage) }};" role="img"
+           aria-label="Suitability {{ '%.1f'|format(top1.suitability_percentage) }} percent">
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <circle class="gauge-track" cx="60" cy="60" r="52"/>
+          <circle class="gauge-value" cx="60" cy="60" r="52" transform="rotate(-90 60 60)"/>
+        </svg>
+        <div class="gauge-label">
+          <strong>{{ "%.1f"|format(top1.suitability_percentage) }}%</strong>
+          <span>suitability</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="top5-title">
+    <div class="section-heading"><h2 id="top5-title">Top 5 crops</h2></div>
+    <ol class="recommendation-list">
+      {% for item in top5 %}{{ crop_row(item) }}{% endfor %}
+    </ol>
+
+    {% if results and results|length > 5 %}
+    <details class="more">
+      <summary>Show the other {{ results|length - 5 }} crops</summary>
+      <ol class="recommendation-list" start="6">
+        {% for item in results[5:] %}{{ crop_row(item) }}{% endfor %}
+      </ol>
+    </details>
+    {% endif %}
+  </section>
+
+  <div class="result-grid">
+    <section class="panel" aria-labelledby="chart-title">
+      <div class="section-heading"><h2 id="chart-title">Score comparison</h2></div>
+      <div class="chart-container">
+        <canvas id="recommendationChart" role="img" aria-label="Bar chart of suitability for the top five crops">
+          {% for item in top5 %}{{ item.crop|replace("_", " ") }} {{ '%.1f'|format(item.suitability_percentage) }}%{% if not loop.last %}, {% endif %}{% endfor %}
+        </canvas>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="summary-title">
+      <div class="section-heading"><h2 id="summary-title">Conditions you entered</h2></div>
+      <div class="summary-groups">
+        {% for s in sections %}
+        <div class="summary-group" data-domain="{{ s.key }}">
+          <h3>{{ s.title }}</h3>
+          <dl class="summary-grid">
+            {% for name, label, unit in s.fields %}
+            {% if name in environment %}
+            <div class="summary-item">
+              <dt>{{ label }}</dt>
+              <dd>{{ ("%.3f"|format(environment[name])).rstrip("0").rstrip(".") }}{% if unit %} <small>{{ unit }}</small>{% endif %}</dd>
+            </div>
+            {% endif %}
+            {% endfor %}
+          </dl>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+
+  <section class="panel explanation" aria-labelledby="interpret-title">
+    <h2 id="interpret-title">Reading the ranking</h2>
+    <div class="explanation-cols">
+      <p>The percentage is the probability the model assigns to the crop being suitable under your conditions. A higher number means a stronger match.</p>
+      <p>Scores are comparative: the first crop is the best of the ten supported crops for this site, not a guarantee of yield.</p>
+    </div>
+    <div class="notice" role="note">
+      <strong>Use with local knowledge.</strong>
+      This is a decision-support tool. Confirm choices with field assessment and an agronomist.
+    </div>
+  </section>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  window.recommendationChartData = {
+    labels: {{ top5|map(attribute='crop')|list|tojson }},
+    values: {{ top5|map(attribute='suitability_percentage')|list|tojson }}
+  };
+</script>
+{% endblock %}

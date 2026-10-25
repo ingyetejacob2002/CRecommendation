@@ -1,0 +1,30 @@
+Best model: Gradient Boosting
+Split method: GroupShuffleSplit by location_id
+Training records: 672
+Testing records: 175
+
+                 model  accuracy  precision   recall  f1_score  roc_auc
+     Gradient Boosting  1.000000   1.000000 1.000000  1.000000 1.000000
+         Decision Tree  0.988571   1.000000 0.980198  0.990000 0.990099
+         Random Forest  0.880000   0.944444 0.841584  0.890052 0.978191
+   K-Nearest Neighbors  0.794286   0.751938 0.960396  0.843478 0.892093
+Support Vector Machine  0.748571   0.806452 0.742574  0.773196 0.866872
+   Logistic Regression  0.725714   0.778947 0.732673  0.755102 0.805727
+
+Confusion matrix (rows=true [0,1], columns=predicted [0,1]):
+[[ 74   0]
+ [  0 101]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+Not suitable       1.00      1.00      1.00        74
+    Suitable       1.00      1.00      1.00       101
+
+    accuracy                           1.00       175
+   macro avg       1.00      1.00      1.00       175
+weighted avg       1.00      1.00      1.00       175
+
+
+IMPORTANT LIMITATION:
+Target labels are rule-derived from crop temperature, rainfall and pH requirements. Evaluation measures replication of those rules and does not independently validate real-world yield or agronomic performance.

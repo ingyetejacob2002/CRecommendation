@@ -1,0 +1,71 @@
+CROP RECOMMENDATION BIAS INVESTIGATION REPORT
+======================================================================
+
+PROJECT: Development of a Crop Recommendation System for North-Central Nigeria
+
+1. DATASET SUMMARY
+Training records: 1210
+Training features: 34
+Number of crops: 10
+Number of locations: 121
+2. OVERALL TARGET DISTRIBUTION
+Class 0: 651 (53.80%)
+Class 1: 559 (46.20%)
+
+3. CROP-LEVEL SUITABILITY
+             crop  total_records  suitable_records  mean_suitability  suitability_percentage
+           Cowpea            121               101          0.834711               83.471074
+        Groundnut            121               101          0.834711               83.471074
+          Soybean            121               101          0.834711               83.471074
+Bambara_groundnut            121                93          0.768595               76.859504
+          Cassava            121                84          0.694215               69.421488
+            Maize            121                61          0.504132               50.413223
+             Rice            121                12          0.099174                9.917355
+           Millet            121                 4          0.033058                3.305785
+              Yam            121                 2          0.016529                1.652893
+          Sorghum            121                 0          0.000000                0.000000
+
+4. FEATURE IMPORTANCE
+crop_encoded importance: 0.581778
+Environmental feature importance total: 0.418222
+
+Top features:
+                     feature   importance
+                crop_encoded 5.817781e-01
+      total_precipitation_mm 3.171349e-01
+ mean_daily_precipitation_mm 4.096146e-02
+mean_annual_precipitation_mm 2.282625e-02
+                     soil_ph 1.881506e-02
+          mean_temperature_c 1.287412e-02
+     minimum_solar_radiation 5.610025e-03
+     maximum_solar_radiation 9.334634e-17
+                silt_percent 0.000000e+00
+                cec_cmolc_kg 0.000000e+00
+        mean_solar_radiation 0.000000e+00
+                clay_percent 0.000000e+00
+          soil_nitrogen_g_kg 0.000000e+00
+    soil_organic_carbon_g_kg 0.000000e+00
+          bulk_density_g_cm3 0.000000e+00
+
+5. DIAGNOSTIC MODEL COMPARISON
+                   model  features  accuracy_mean  accuracy_std  precision_mean  precision_std  recall_mean  recall_std  f1_mean   f1_std  roc_auc_mean  roc_auc_std
+         Crop-only model         1       0.837765      0.027891        0.754524       0.031540     0.964270    0.017725 0.846317 0.023947      0.896851     0.011877
+Environmental-only model        33       0.525912      0.056397        0.487281       0.043939     0.662097    0.140807 0.557641 0.076956      0.535375     0.028402
+              Full model        34       0.992762      0.007752        0.989200       0.016658     0.995556    0.008889 0.992252 0.008242      0.992906     0.007404
+
+6. BIAS WARNINGS
+1. At least one crop has zero suitable training records.
+2. Some crops have extremely low suitability rates.
+3. Some crops have extremely high suitability rates.
+4. crop_encoded contributes more than 50% of Decision Tree feature importance.
+5. One crop accounts for more than 50% of top-1 recommendations.
+
+7. INTERPRETATION
+The diagnostic analysis should be interpreted before modifying the training labels or deploying the recommendation system.
+
+A high predictive score alone does not establish that the recommendation engine is environmentally generalizable. In particular, strong crop identity importance and highly uneven crop-level suitability rates may indicate that the target variable reflects the crop requirement rules used during target construction.
+
+The environmental-only model is included as a diagnostic baseline. If its performance is much lower than the full model, this should be examined carefully rather than automatically interpreted as evidence that environmental variables are irrelevant.
+
+8. RECOMMENDATION
+Do not overwrite the existing training dataset at this stage. Review the target-generation methodology and crop requirement thresholds before creating a corrected dataset.

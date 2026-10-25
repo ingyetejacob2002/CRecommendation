@@ -1,0 +1,122 @@
+location_id,state,lga,top_3_crops
+1,Benue,Ado,Bambara_groundnut | Cowpea | Groundnut
+2,Benue,Agatu,Bambara_groundnut | Cassava | Cowpea
+3,Benue,Apa,Bambara_groundnut | Cassava | Cowpea
+4,Benue,Buruku,Bambara_groundnut | Cassava | Cowpea
+5,Benue,Gboko,Bambara_groundnut | Cassava | Cowpea
+6,Benue,Guma,Bambara_groundnut | Cassava | Cowpea
+7,Benue,Gwer East,Bambara_groundnut | Cassava | Cowpea
+8,Benue,Gwer West,Bambara_groundnut | Cassava | Cowpea
+9,Benue,Katsina-Ala,Bambara_groundnut | Cassava | Cowpea
+10,Benue,Konshisha,Bambara_groundnut | Cowpea | Groundnut
+11,Benue,Kwande,Bambara_groundnut | Cassava | Cowpea
+12,Benue,Logo,Bambara_groundnut | Cassava | Cowpea
+13,Benue,Makurdi,Bambara_groundnut | Cassava | Cowpea
+14,Benue,Obi,Bambara_groundnut | Cowpea | Groundnut
+15,Benue,Ogbadibo,Bambara_groundnut | Cassava | Cowpea
+16,Benue,Ohimini,Bambara_groundnut | Cassava | Cowpea
+17,Benue,Oju,Bambara_groundnut | Cowpea | Groundnut
+18,Benue,Okpokwu,Bambara_groundnut | Cowpea | Groundnut
+19,Benue,Oturkpo,Bambara_groundnut | Cassava | Cowpea
+20,Benue,Tarka,Bambara_groundnut | Cassava | Cowpea
+21,Benue,Ukum,Bambara_groundnut | Cassava | Cowpea
+22,Benue,Ushongo,Bambara_groundnut | Cassava | Cowpea
+23,Benue,Vandeikya,Bambara_groundnut | Cowpea | Groundnut
+24,Federal,Capital_Territory_Abaji,Bambara_groundnut | Cassava | Cowpea
+25,Federal,Capital_Territory_Abuja_Municipal,Bambara_groundnut | Cassava | Cowpea
+26,Federal,Capital_Territory_Bwari,Bambara_groundnut | Cassava | Cowpea
+27,Federal,Capital_Territory_Gwagwalada,Bambara_groundnut | Cassava | Cowpea
+28,Federal,Capital_Territory_Kuje,Bambara_groundnut | Cassava | Cowpea
+29,Federal,Capital_Territory_Kwali,Bambara_groundnut | Cassava | Cowpea
+30,Kogi,Adavi,Cassava | Cowpea | Groundnut
+31,Kogi,Ajaokuta,Bambara_groundnut | Cassava | Cowpea
+32,Kogi,Ankpa,Bambara_groundnut | Cassava | Cowpea
+33,Kogi,Bassa,Bambara_groundnut | Cassava | Cowpea
+34,Kogi,Dekina,Bambara_groundnut | Cassava | Cowpea
+35,Kogi,Ibaji,Cassava | Cowpea | Groundnut
+36,Kogi,Idah,Cassava | Cowpea | Groundnut
+37,Kogi,Igalamela-Odolu,Cassava | Cowpea | Groundnut
+38,Kogi,Ijumu,Rice | Bambara_groundnut | Cassava
+39,Kogi,Kabba_Bunu,Bambara_groundnut | Cassava | Cowpea
+40,Kogi,Kogi,Bambara_groundnut | Cassava | Cowpea
+41,Kogi,Lokoja,Bambara_groundnut | Cassava | Cowpea
+42,Kogi,Mopa-Muro,Rice | Bambara_groundnut | Cassava
+43,Kogi,Ofu,Bambara_groundnut | Cassava | Cowpea
+44,Kogi,Ogori_Mangongo,Cassava | Cowpea | Groundnut
+45,Kogi,Okehi,Cassava | Cowpea | Groundnut
+46,Kogi,Okene,Cassava | Cowpea | Groundnut
+47,Kogi,Olamabolo,Bambara_groundnut | Cassava | Cowpea
+48,Kogi,Omala,Bambara_groundnut | Cassava | Cowpea
+49,Kogi,Yagba East,Rice | Bambara_groundnut | Cassava
+50,Kogi,Yagba West,Bambara_groundnut | Cassava | Cowpea
+51,Kwara,Asa,Bambara_groundnut | Cassava | Cowpea
+52,Kwara,Baruten,Bambara_groundnut | Cowpea | Groundnut
+53,Kwara,Edu,Bambara_groundnut | Cowpea | Groundnut
+54,Kwara,Ekiti,Rice | Bambara_groundnut | Cassava
+55,Kwara,Ifelodun,Bambara_groundnut | Cassava | Cowpea
+56,Kwara,Ilorin East,Bambara_groundnut | Cassava | Cowpea
+57,Kwara,Ilorin South,Bambara_groundnut | Cassava | Cowpea
+58,Kwara,Ilorin West,Bambara_groundnut | Cassava | Cowpea
+59,Kwara,Irepodun,Bambara_groundnut | Cassava | Cowpea
+60,Kwara,Isin,Bambara_groundnut | Cassava | Cowpea
+61,Kwara,Kaiama,Bambara_groundnut | Cowpea | Groundnut
+62,Kwara,Moro,Bambara_groundnut | Cassava | Cowpea
+63,Kwara,Offa,Rice | Bambara_groundnut | Cassava
+64,Kwara,Oke-Ero,Bambara_groundnut | Cassava | Cowpea
+65,Kwara,Oyun,Rice | Bambara_groundnut | Cassava
+66,Kwara,Pategi,Bambara_groundnut | Cassava | Cowpea
+67,Nasarawa,Akwanga,Bambara_groundnut | Cassava | Cowpea
+68,Nasarawa,Awe,Bambara_groundnut | Cassava | Cowpea
+69,Nasarawa,Doma,Bambara_groundnut | Cassava | Cowpea
+70,Nasarawa,Karu,Bambara_groundnut | Cassava | Cowpea
+71,Nasarawa,Keana,Bambara_groundnut | Cassava | Cowpea
+72,Nasarawa,Keffi,Bambara_groundnut | Cassava | Cowpea
+73,Nasarawa,Kokona,Bambara_groundnut | Cassava | Cowpea
+74,Nasarawa,Lafia,Bambara_groundnut | Cassava | Cowpea
+75,Nasarawa,Nasarawa,Bambara_groundnut | Cassava | Cowpea
+76,Nasarawa,Nasarawa-Eggon,Bambara_groundnut | Cassava | Cowpea
+77,Nasarawa,Obi,Bambara_groundnut | Cassava | Cowpea
+78,Nasarawa,Toto,Bambara_groundnut | Cassava | Cowpea
+79,Nasarawa,Wamba,Bambara_groundnut | Cassava | Cowpea
+80,Niger,Agaie,Bambara_groundnut | Cowpea | Groundnut
+81,Niger,Agwara,Rice | Bambara_groundnut | Cassava
+82,Niger,Bida,Bambara_groundnut | Cowpea | Groundnut
+83,Niger,Borgu,Bambara_groundnut | Cassava | Cowpea
+84,Niger,Bosso,Bambara_groundnut | Cassava | Cowpea
+85,Niger,Chanchaga,Bambara_groundnut | Cassava | Cowpea
+86,Niger,Edati,Bambara_groundnut | Cowpea | Groundnut
+87,Niger,Gbako,Bambara_groundnut | Cassava | Cowpea
+88,Niger,Gurara,Cassava | Cowpea | Groundnut
+89,Niger,Katcha,Bambara_groundnut | Cowpea | Groundnut
+90,Niger,Kontagora,Rice | Bambara_groundnut | Cassava
+91,Niger,Lapai,Bambara_groundnut | Cassava | Cowpea
+92,Niger,Lavun,Bambara_groundnut | Cassava | Cowpea
+93,Niger,Magama,Rice | Bambara_groundnut | Cassava
+94,Niger,Mariga,Rice | Bambara_groundnut | Cassava
+95,Niger,Mashegu,Bambara_groundnut | Cassava | Cowpea
+96,Niger,Mokwa,Bambara_groundnut | Cowpea | Groundnut
+97,Niger,Muya,Rice | Bambara_groundnut | Cassava
+98,Niger,Pailoro,Cassava | Cowpea | Groundnut
+99,Niger,Rafi,Cassava | Cowpea | Groundnut
+100,Niger,Rijau,Bambara_groundnut | Cassava | Cowpea
+101,Niger,Shiroro,Rice | Bambara_groundnut | Cassava
+102,Niger,Suleja,Bambara_groundnut | Cassava | Cowpea
+103,Niger,Tafa,Bambara_groundnut | Cassava | Cowpea
+104,Niger,Wushishi,Bambara_groundnut | Cassava | Cowpea
+105,Plateau,Barikin Ladi,Bambara_groundnut | Cassava | Cowpea
+106,Plateau,Bassa,Bambara_groundnut | Cassava | Cowpea
+107,Plateau,Bokkos,Maize | Soybean | Bambara_groundnut
+108,Plateau,Jos East,Bambara_groundnut | Cassava | Cowpea
+109,Plateau,Jos North,Bambara_groundnut | Cassava | Cowpea
+110,Plateau,Jos South,Bambara_groundnut | Cassava | Cowpea
+111,Plateau,Kanam,Bambara_groundnut | Cowpea | Groundnut
+112,Plateau,Kanke,Bambara_groundnut | Cassava | Cowpea
+113,Plateau,Langtang North,Bambara_groundnut | Cowpea | Groundnut
+114,Plateau,Langtang South,Bambara_groundnut | Cassava | Cowpea
+115,Plateau,Mangu,Bambara_groundnut | Cassava | Cowpea
+116,Plateau,Mikang,Bambara_groundnut | Cowpea | Groundnut
+117,Plateau,Pankshin,Bambara_groundnut | Cassava | Cowpea
+118,Plateau,Qua'an Pan,Bambara_groundnut | Cowpea | Groundnut
+119,Plateau,Riyom,Bambara_groundnut | Cassava | Cowpea
+120,Plateau,Shendam,Bambara_groundnut | Cassava | Cowpea
+121,Plateau,Wase,Bambara_groundnut | Cowpea | Groundnut

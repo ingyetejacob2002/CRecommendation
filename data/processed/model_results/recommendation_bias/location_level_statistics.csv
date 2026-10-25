@@ -1,0 +1,122 @@
+location_id,state,lga,mean_probability,max_probability,min_probability,recommended_crops
+1,Benue,Ado,0.5,1.0,0.0,5
+2,Benue,Agatu,0.6,1.0,0.0,6
+3,Benue,Apa,0.6,1.0,0.0,6
+4,Benue,Buruku,0.6,1.0,0.0,6
+5,Benue,Gboko,0.6,1.0,0.0,6
+6,Benue,Guma,0.5,1.0,0.0,5
+7,Benue,Gwer East,0.6,1.0,0.0,6
+8,Benue,Gwer West,0.6,1.0,0.0,6
+9,Benue,Katsina-Ala,0.6,1.0,0.0,6
+10,Benue,Konshisha,0.5,1.0,0.0,5
+11,Benue,Kwande,0.5538223140495868,1.0,0.0,6
+12,Benue,Logo,0.6,1.0,0.0,6
+13,Benue,Makurdi,0.6,1.0,0.0,6
+14,Benue,Obi,0.5,1.0,0.0,5
+15,Benue,Ogbadibo,0.6,1.0,0.0,6
+16,Benue,Ohimini,0.6,1.0,0.0,6
+17,Benue,Oju,0.5,1.0,0.0,5
+18,Benue,Okpokwu,0.5,1.0,0.0,5
+19,Benue,Oturkpo,0.6,1.0,0.0,6
+20,Benue,Tarka,0.6,1.0,0.0,6
+21,Benue,Ukum,0.6,1.0,0.0,6
+22,Benue,Ushongo,0.6,1.0,0.0,6
+23,Benue,Vandeikya,0.4538223140495868,1.0,0.0,5
+24,Federal,Capital_Territory_Abaji,0.6,1.0,0.0,6
+25,Federal,Capital_Territory_Abuja_Municipal,0.5,1.0,0.0,5
+26,Federal,Capital_Territory_Bwari,0.5,1.0,0.0,5
+27,Federal,Capital_Territory_Gwagwalada,0.6,1.0,0.0,6
+28,Federal,Capital_Territory_Kuje,0.5,1.0,0.0,5
+29,Federal,Capital_Territory_Kwali,0.6,1.0,0.0,6
+30,Kogi,Adavi,0.4,1.0,0.0,4
+31,Kogi,Ajaokuta,0.5,1.0,0.0,5
+32,Kogi,Ankpa,0.5,1.0,0.0,5
+33,Kogi,Bassa,0.5,1.0,0.0,5
+34,Kogi,Dekina,0.5,1.0,0.0,5
+35,Kogi,Ibaji,0.4,1.0,0.0,4
+36,Kogi,Idah,0.4,1.0,0.0,4
+37,Kogi,Igalamela-Odolu,0.4,1.0,0.0,4
+38,Kogi,Ijumu,0.1,1.0,0.0,1
+39,Kogi,Kabba_Bunu,0.5,1.0,0.0,5
+40,Kogi,Kogi,0.5,1.0,0.0,5
+41,Kogi,Lokoja,0.5,1.0,0.0,5
+42,Kogi,Mopa-Muro,0.1,1.0,0.0,1
+43,Kogi,Ofu,0.5,1.0,0.0,5
+44,Kogi,Ogori_Mangongo,0.4,1.0,0.0,4
+45,Kogi,Okehi,0.4,1.0,0.0,4
+46,Kogi,Okene,0.4,1.0,0.0,4
+47,Kogi,Olamabolo,0.6,1.0,0.0,6
+48,Kogi,Omala,0.5,1.0,0.0,5
+49,Kogi,Yagba East,0.1,1.0,0.0,1
+50,Kogi,Yagba West,0.6,1.0,0.0,6
+51,Kwara,Asa,0.5,1.0,0.0,5
+52,Kwara,Baruten,0.5699798522498322,1.0,0.0,6
+53,Kwara,Edu,0.5,1.0,0.0,5
+54,Kwara,Ekiti,0.1,1.0,0.0,1
+55,Kwara,Ifelodun,0.5699798522498322,1.0,0.0,6
+56,Kwara,Ilorin East,0.5,1.0,0.0,5
+57,Kwara,Ilorin South,0.5,1.0,0.0,5
+58,Kwara,Ilorin West,0.5,1.0,0.0,5
+59,Kwara,Irepodun,0.0,0.0,0.0,0
+60,Kwara,Isin,0.5,1.0,0.0,5
+61,Kwara,Kaiama,0.5,1.0,0.0,5
+62,Kwara,Moro,0.6699798522498321,1.0,0.0,7
+63,Kwara,Offa,0.1,1.0,0.0,1
+64,Kwara,Oke-Ero,0.0,0.0,0.0,0
+65,Kwara,Oyun,0.1,1.0,0.0,1
+66,Kwara,Pategi,0.6,1.0,0.0,6
+67,Nasarawa,Akwanga,0.6,1.0,0.0,6
+68,Nasarawa,Awe,0.6,1.0,0.0,6
+69,Nasarawa,Doma,0.6,1.0,0.0,6
+70,Nasarawa,Karu,0.5,1.0,0.0,5
+71,Nasarawa,Keana,0.5,1.0,0.0,5
+72,Nasarawa,Keffi,0.6,1.0,0.0,6
+73,Nasarawa,Kokona,0.6,1.0,0.0,6
+74,Nasarawa,Lafia,0.6,1.0,0.0,6
+75,Nasarawa,Nasarawa,0.5,1.0,0.0,5
+76,Nasarawa,Nasarawa-Eggon,0.6,1.0,0.0,6
+77,Nasarawa,Obi,0.6,1.0,0.0,6
+78,Nasarawa,Toto,0.5,1.0,0.0,5
+79,Nasarawa,Wamba,0.6,1.0,0.0,6
+80,Niger,Agaie,0.5,1.0,0.0,5
+81,Niger,Agwara,0.1,1.0,0.0,1
+82,Niger,Bida,0.5,1.0,0.0,5
+83,Niger,Borgu,0.5,1.0,0.0,5
+84,Niger,Bosso,0.6,1.0,0.0,6
+85,Niger,Chanchaga,0.6,1.0,0.0,6
+86,Niger,Edati,0.5,1.0,0.0,5
+87,Niger,Gbako,0.6,1.0,0.0,6
+88,Niger,Gurara,0.4,1.0,0.0,4
+89,Niger,Katcha,0.5,1.0,0.0,5
+90,Niger,Kontagora,0.1,1.0,0.0,1
+91,Niger,Lapai,0.6,1.0,0.0,6
+92,Niger,Lavun,0.6,1.0,0.0,6
+93,Niger,Magama,0.1,1.0,0.0,1
+94,Niger,Mariga,0.1,1.0,0.0,1
+95,Niger,Mashegu,0.5,1.0,0.0,5
+96,Niger,Mokwa,0.5,1.0,0.0,5
+97,Niger,Muya,0.1,1.0,0.0,1
+98,Niger,Pailoro,0.4,1.0,0.0,4
+99,Niger,Rafi,0.4,1.0,0.0,4
+100,Niger,Rijau,0.5,1.0,0.0,5
+101,Niger,Shiroro,0.1,1.0,0.0,1
+102,Niger,Suleja,0.6,1.0,0.0,6
+103,Niger,Tafa,0.5,1.0,0.0,5
+104,Niger,Wushishi,0.6,1.0,0.0,6
+105,Plateau,Barikin Ladi,0.5,1.0,0.0,5
+106,Plateau,Bassa,0.0,0.0,0.0,0
+107,Plateau,Bokkos,0.4799194089993284,1.0,0.0,6
+108,Plateau,Jos East,0.0,0.0,0.0,0
+109,Plateau,Jos North,0.0,0.0,0.0,0
+110,Plateau,Jos South,0.0,0.0,0.0,0
+111,Plateau,Kanam,0.6,1.0,0.0,6
+112,Plateau,Kanke,0.5,1.0,0.0,5
+113,Plateau,Langtang North,0.6,1.0,0.0,6
+114,Plateau,Langtang South,0.6,1.0,0.0,6
+115,Plateau,Mangu,0.5,1.0,0.0,5
+116,Plateau,Mikang,0.5,1.0,0.0,5
+117,Plateau,Pankshin,0.5,1.0,0.0,5
+118,Plateau,Qua'an Pan,0.5,1.0,0.0,5
+119,Plateau,Riyom,0.5,1.0,0.0,5
+120,Plateau,Shendam,0.6,1.0,0.0,6
+121,Plateau,Wase,0.6,1.0,0.0,6

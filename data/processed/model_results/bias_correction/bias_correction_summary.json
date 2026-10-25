@@ -1,0 +1,22 @@
+{
+    "training_records": 968,
+    "test_records": 242,
+    "feature_count": 34,
+    "original_model": "DecisionTreeClassifier",
+    "corrected_model": "DecisionTreeClassifier",
+    "original_accuracy": 0.9793388429752066,
+    "corrected_accuracy": 0.9793388429752066,
+    "original_precision": 0.9652173913043478,
+    "corrected_precision": 0.9652173913043478,
+    "original_recall": 0.9910714285714286,
+    "corrected_recall": 0.9910714285714286,
+    "original_f1": 0.9779735682819384,
+    "corrected_f1": 0.9779735682819384,
+    "original_roc_auc": 0.9839629120879121,
+    "corrected_roc_auc": 0.9839629120879121,
+    "corrected_cv_f1_mean": 0.9922522322174689,
+    "corrected_cv_f1_std": 0.009214997379364391,
+    "corrected_cv_roc_auc_mean": 0.9929487179487179,
+    "corrected_cv_roc_auc_std": 0.008198002603953338,
+    "corrected_model_path": "C:\\Users\\DELL\\Desktop\\projects\\Emmanuel Alia\\CropRecommendation\\models\\corrected\\crop_suitability_model_corrected.joblib"
+}

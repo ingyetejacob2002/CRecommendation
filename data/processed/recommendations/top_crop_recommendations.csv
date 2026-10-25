@@ -1,0 +1,364 @@
+location_id,state,lga,crop,crop_encoded,prediction,suitability_probability,suitability_label,recommendation_rank,recommendation_category
+1,Benue,Ado,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+1,Benue,Ado,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+1,Benue,Ado,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+2,Benue,Agatu,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+2,Benue,Agatu,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+2,Benue,Agatu,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+3,Benue,Apa,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+3,Benue,Apa,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+3,Benue,Apa,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+4,Benue,Buruku,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+4,Benue,Buruku,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+4,Benue,Buruku,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+5,Benue,Gboko,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+5,Benue,Gboko,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+5,Benue,Gboko,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+6,Benue,Guma,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+6,Benue,Guma,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+6,Benue,Guma,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+7,Benue,Gwer East,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+7,Benue,Gwer East,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+7,Benue,Gwer East,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+8,Benue,Gwer West,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+8,Benue,Gwer West,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+8,Benue,Gwer West,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+9,Benue,Katsina-Ala,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+9,Benue,Katsina-Ala,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+9,Benue,Katsina-Ala,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+10,Benue,Konshisha,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+10,Benue,Konshisha,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+10,Benue,Konshisha,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+11,Benue,Kwande,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+11,Benue,Kwande,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+11,Benue,Kwande,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+12,Benue,Logo,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+12,Benue,Logo,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+12,Benue,Logo,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+13,Benue,Makurdi,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+13,Benue,Makurdi,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+13,Benue,Makurdi,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+14,Benue,Obi,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+14,Benue,Obi,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+14,Benue,Obi,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+15,Benue,Ogbadibo,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+15,Benue,Ogbadibo,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+15,Benue,Ogbadibo,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+16,Benue,Ohimini,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+16,Benue,Ohimini,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+16,Benue,Ohimini,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+17,Benue,Oju,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+17,Benue,Oju,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+17,Benue,Oju,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+18,Benue,Okpokwu,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+18,Benue,Okpokwu,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+18,Benue,Okpokwu,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+19,Benue,Oturkpo,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+19,Benue,Oturkpo,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+19,Benue,Oturkpo,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+20,Benue,Tarka,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+20,Benue,Tarka,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+20,Benue,Tarka,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+21,Benue,Ukum,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+21,Benue,Ukum,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+21,Benue,Ukum,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+22,Benue,Ushongo,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+22,Benue,Ushongo,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+22,Benue,Ushongo,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+23,Benue,Vandeikya,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+23,Benue,Vandeikya,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+23,Benue,Vandeikya,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+24,Federal,Capital_Territory_Abaji,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+24,Federal,Capital_Territory_Abaji,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+24,Federal,Capital_Territory_Abaji,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+25,Federal,Capital_Territory_Abuja_Municipal,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+25,Federal,Capital_Territory_Abuja_Municipal,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+25,Federal,Capital_Territory_Abuja_Municipal,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+26,Federal,Capital_Territory_Bwari,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+26,Federal,Capital_Territory_Bwari,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+26,Federal,Capital_Territory_Bwari,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+27,Federal,Capital_Territory_Gwagwalada,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+27,Federal,Capital_Territory_Gwagwalada,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+27,Federal,Capital_Territory_Gwagwalada,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+28,Federal,Capital_Territory_Kuje,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+28,Federal,Capital_Territory_Kuje,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+28,Federal,Capital_Territory_Kuje,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+29,Federal,Capital_Territory_Kwali,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+29,Federal,Capital_Territory_Kwali,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+29,Federal,Capital_Territory_Kwali,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+30,Kogi,Adavi,Cassava,1,1,1.0,Suitable,1,Highly Recommended
+30,Kogi,Adavi,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+30,Kogi,Adavi,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+31,Kogi,Ajaokuta,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+31,Kogi,Ajaokuta,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+31,Kogi,Ajaokuta,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+32,Kogi,Ankpa,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+32,Kogi,Ankpa,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+32,Kogi,Ankpa,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+33,Kogi,Bassa,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+33,Kogi,Bassa,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+33,Kogi,Bassa,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+34,Kogi,Dekina,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+34,Kogi,Dekina,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+34,Kogi,Dekina,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+35,Kogi,Ibaji,Cassava,1,1,1.0,Suitable,1,Highly Recommended
+35,Kogi,Ibaji,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+35,Kogi,Ibaji,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+36,Kogi,Idah,Cassava,1,1,1.0,Suitable,1,Highly Recommended
+36,Kogi,Idah,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+36,Kogi,Idah,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+37,Kogi,Igalamela-Odolu,Cassava,1,1,1.0,Suitable,1,Highly Recommended
+37,Kogi,Igalamela-Odolu,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+37,Kogi,Igalamela-Odolu,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+38,Kogi,Ijumu,Rice,6,1,1.0,Suitable,1,Highly Recommended
+38,Kogi,Ijumu,Bambara_groundnut,0,0,0.0,Not Suitable,2,Not Recommended
+38,Kogi,Ijumu,Cassava,1,0,0.0,Not Suitable,3,Not Recommended
+39,Kogi,Kabba_Bunu,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+39,Kogi,Kabba_Bunu,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+39,Kogi,Kabba_Bunu,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+40,Kogi,Kogi,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+40,Kogi,Kogi,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+40,Kogi,Kogi,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+41,Kogi,Lokoja,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+41,Kogi,Lokoja,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+41,Kogi,Lokoja,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+42,Kogi,Mopa-Muro,Rice,6,1,1.0,Suitable,1,Highly Recommended
+42,Kogi,Mopa-Muro,Bambara_groundnut,0,0,0.0,Not Suitable,2,Not Recommended
+42,Kogi,Mopa-Muro,Cassava,1,0,0.0,Not Suitable,3,Not Recommended
+43,Kogi,Ofu,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+43,Kogi,Ofu,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+43,Kogi,Ofu,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+44,Kogi,Ogori_Mangongo,Cassava,1,1,1.0,Suitable,1,Highly Recommended
+44,Kogi,Ogori_Mangongo,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+44,Kogi,Ogori_Mangongo,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+45,Kogi,Okehi,Cassava,1,1,1.0,Suitable,1,Highly Recommended
+45,Kogi,Okehi,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+45,Kogi,Okehi,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+46,Kogi,Okene,Cassava,1,1,1.0,Suitable,1,Highly Recommended
+46,Kogi,Okene,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+46,Kogi,Okene,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+47,Kogi,Olamabolo,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+47,Kogi,Olamabolo,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+47,Kogi,Olamabolo,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+48,Kogi,Omala,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+48,Kogi,Omala,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+48,Kogi,Omala,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+49,Kogi,Yagba East,Rice,6,1,1.0,Suitable,1,Highly Recommended
+49,Kogi,Yagba East,Bambara_groundnut,0,0,0.0,Not Suitable,2,Not Recommended
+49,Kogi,Yagba East,Cassava,1,0,0.0,Not Suitable,3,Not Recommended
+50,Kogi,Yagba West,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+50,Kogi,Yagba West,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+50,Kogi,Yagba West,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+51,Kwara,Asa,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+51,Kwara,Asa,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+51,Kwara,Asa,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+52,Kwara,Baruten,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+52,Kwara,Baruten,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+52,Kwara,Baruten,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+53,Kwara,Edu,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+53,Kwara,Edu,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+53,Kwara,Edu,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+54,Kwara,Ekiti,Rice,6,1,1.0,Suitable,1,Highly Recommended
+54,Kwara,Ekiti,Bambara_groundnut,0,0,0.0,Not Suitable,2,Not Recommended
+54,Kwara,Ekiti,Cassava,1,0,0.0,Not Suitable,3,Not Recommended
+55,Kwara,Ifelodun,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+55,Kwara,Ifelodun,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+55,Kwara,Ifelodun,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+56,Kwara,Ilorin East,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+56,Kwara,Ilorin East,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+56,Kwara,Ilorin East,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+57,Kwara,Ilorin South,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+57,Kwara,Ilorin South,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+57,Kwara,Ilorin South,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+58,Kwara,Ilorin West,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+58,Kwara,Ilorin West,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+58,Kwara,Ilorin West,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+59,Kwara,Irepodun,Bambara_groundnut,0,0,0.0,Not Suitable,1,Not Recommended
+59,Kwara,Irepodun,Cassava,1,0,0.0,Not Suitable,2,Not Recommended
+59,Kwara,Irepodun,Cowpea,2,0,0.0,Not Suitable,3,Not Recommended
+60,Kwara,Isin,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+60,Kwara,Isin,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+60,Kwara,Isin,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+61,Kwara,Kaiama,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+61,Kwara,Kaiama,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+61,Kwara,Kaiama,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+62,Kwara,Moro,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+62,Kwara,Moro,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+62,Kwara,Moro,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+63,Kwara,Offa,Rice,6,1,1.0,Suitable,1,Highly Recommended
+63,Kwara,Offa,Bambara_groundnut,0,0,0.0,Not Suitable,2,Not Recommended
+63,Kwara,Offa,Cassava,1,0,0.0,Not Suitable,3,Not Recommended
+64,Kwara,Oke-Ero,Bambara_groundnut,0,0,0.0,Not Suitable,1,Not Recommended
+64,Kwara,Oke-Ero,Cassava,1,0,0.0,Not Suitable,2,Not Recommended
+64,Kwara,Oke-Ero,Cowpea,2,0,0.0,Not Suitable,3,Not Recommended
+65,Kwara,Oyun,Rice,6,1,1.0,Suitable,1,Highly Recommended
+65,Kwara,Oyun,Bambara_groundnut,0,0,0.0,Not Suitable,2,Not Recommended
+65,Kwara,Oyun,Cassava,1,0,0.0,Not Suitable,3,Not Recommended
+66,Kwara,Pategi,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+66,Kwara,Pategi,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+66,Kwara,Pategi,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+67,Nasarawa,Akwanga,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+67,Nasarawa,Akwanga,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+67,Nasarawa,Akwanga,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+68,Nasarawa,Awe,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+68,Nasarawa,Awe,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+68,Nasarawa,Awe,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+69,Nasarawa,Doma,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+69,Nasarawa,Doma,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+69,Nasarawa,Doma,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+70,Nasarawa,Karu,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+70,Nasarawa,Karu,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+70,Nasarawa,Karu,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+71,Nasarawa,Keana,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+71,Nasarawa,Keana,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+71,Nasarawa,Keana,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+72,Nasarawa,Keffi,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+72,Nasarawa,Keffi,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+72,Nasarawa,Keffi,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+73,Nasarawa,Kokona,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+73,Nasarawa,Kokona,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+73,Nasarawa,Kokona,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+74,Nasarawa,Lafia,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+74,Nasarawa,Lafia,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+74,Nasarawa,Lafia,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+75,Nasarawa,Nasarawa,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+75,Nasarawa,Nasarawa,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+75,Nasarawa,Nasarawa,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+76,Nasarawa,Nasarawa-Eggon,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+76,Nasarawa,Nasarawa-Eggon,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+76,Nasarawa,Nasarawa-Eggon,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+77,Nasarawa,Obi,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+77,Nasarawa,Obi,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+77,Nasarawa,Obi,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+78,Nasarawa,Toto,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+78,Nasarawa,Toto,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+78,Nasarawa,Toto,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+79,Nasarawa,Wamba,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+79,Nasarawa,Wamba,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+79,Nasarawa,Wamba,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+80,Niger,Agaie,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+80,Niger,Agaie,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+80,Niger,Agaie,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+81,Niger,Agwara,Rice,6,1,1.0,Suitable,1,Highly Recommended
+81,Niger,Agwara,Bambara_groundnut,0,0,0.0,Not Suitable,2,Not Recommended
+81,Niger,Agwara,Cassava,1,0,0.0,Not Suitable,3,Not Recommended
+82,Niger,Bida,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+82,Niger,Bida,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+82,Niger,Bida,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+83,Niger,Borgu,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+83,Niger,Borgu,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+83,Niger,Borgu,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+84,Niger,Bosso,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+84,Niger,Bosso,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+84,Niger,Bosso,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+85,Niger,Chanchaga,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+85,Niger,Chanchaga,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+85,Niger,Chanchaga,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+86,Niger,Edati,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+86,Niger,Edati,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+86,Niger,Edati,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+87,Niger,Gbako,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+87,Niger,Gbako,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+87,Niger,Gbako,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+88,Niger,Gurara,Cassava,1,1,1.0,Suitable,1,Highly Recommended
+88,Niger,Gurara,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+88,Niger,Gurara,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+89,Niger,Katcha,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+89,Niger,Katcha,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+89,Niger,Katcha,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+90,Niger,Kontagora,Rice,6,1,1.0,Suitable,1,Highly Recommended
+90,Niger,Kontagora,Bambara_groundnut,0,0,0.0,Not Suitable,2,Not Recommended
+90,Niger,Kontagora,Cassava,1,0,0.0,Not Suitable,3,Not Recommended
+91,Niger,Lapai,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+91,Niger,Lapai,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+91,Niger,Lapai,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+92,Niger,Lavun,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+92,Niger,Lavun,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+92,Niger,Lavun,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+93,Niger,Magama,Rice,6,1,1.0,Suitable,1,Highly Recommended
+93,Niger,Magama,Bambara_groundnut,0,0,0.0,Not Suitable,2,Not Recommended
+93,Niger,Magama,Cassava,1,0,0.0,Not Suitable,3,Not Recommended
+94,Niger,Mariga,Rice,6,1,1.0,Suitable,1,Highly Recommended
+94,Niger,Mariga,Bambara_groundnut,0,0,0.0,Not Suitable,2,Not Recommended
+94,Niger,Mariga,Cassava,1,0,0.0,Not Suitable,3,Not Recommended
+95,Niger,Mashegu,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+95,Niger,Mashegu,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+95,Niger,Mashegu,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+96,Niger,Mokwa,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+96,Niger,Mokwa,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+96,Niger,Mokwa,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+97,Niger,Muya,Rice,6,1,1.0,Suitable,1,Highly Recommended
+97,Niger,Muya,Bambara_groundnut,0,0,0.0,Not Suitable,2,Not Recommended
+97,Niger,Muya,Cassava,1,0,0.0,Not Suitable,3,Not Recommended
+98,Niger,Pailoro,Cassava,1,1,1.0,Suitable,1,Highly Recommended
+98,Niger,Pailoro,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+98,Niger,Pailoro,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+99,Niger,Rafi,Cassava,1,1,1.0,Suitable,1,Highly Recommended
+99,Niger,Rafi,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+99,Niger,Rafi,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+100,Niger,Rijau,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+100,Niger,Rijau,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+100,Niger,Rijau,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+101,Niger,Shiroro,Rice,6,1,1.0,Suitable,1,Highly Recommended
+101,Niger,Shiroro,Bambara_groundnut,0,0,0.0,Not Suitable,2,Not Recommended
+101,Niger,Shiroro,Cassava,1,0,0.0,Not Suitable,3,Not Recommended
+102,Niger,Suleja,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+102,Niger,Suleja,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+102,Niger,Suleja,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+103,Niger,Tafa,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+103,Niger,Tafa,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+103,Niger,Tafa,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+104,Niger,Wushishi,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+104,Niger,Wushishi,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+104,Niger,Wushishi,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+105,Plateau,Barikin Ladi,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+105,Plateau,Barikin Ladi,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+105,Plateau,Barikin Ladi,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+106,Plateau,Bassa,Bambara_groundnut,0,0,0.0,Not Suitable,1,Not Recommended
+106,Plateau,Bassa,Cassava,1,0,0.0,Not Suitable,2,Not Recommended
+106,Plateau,Bassa,Cowpea,2,0,0.0,Not Suitable,3,Not Recommended
+107,Plateau,Bokkos,Maize,4,1,1.0,Suitable,1,Highly Recommended
+107,Plateau,Bokkos,Soybean,8,1,1.0,Suitable,2,Highly Recommended
+107,Plateau,Bokkos,Bambara_groundnut,0,1,0.699798522498321,Suitable,3,Recommended
+108,Plateau,Jos East,Bambara_groundnut,0,0,0.0,Not Suitable,1,Not Recommended
+108,Plateau,Jos East,Cassava,1,0,0.0,Not Suitable,2,Not Recommended
+108,Plateau,Jos East,Cowpea,2,0,0.0,Not Suitable,3,Not Recommended
+109,Plateau,Jos North,Bambara_groundnut,0,0,0.0,Not Suitable,1,Not Recommended
+109,Plateau,Jos North,Cassava,1,0,0.0,Not Suitable,2,Not Recommended
+109,Plateau,Jos North,Cowpea,2,0,0.0,Not Suitable,3,Not Recommended
+110,Plateau,Jos South,Bambara_groundnut,0,0,0.0,Not Suitable,1,Not Recommended
+110,Plateau,Jos South,Cassava,1,0,0.0,Not Suitable,2,Not Recommended
+110,Plateau,Jos South,Cowpea,2,0,0.0,Not Suitable,3,Not Recommended
+111,Plateau,Kanam,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+111,Plateau,Kanam,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+111,Plateau,Kanam,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+112,Plateau,Kanke,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+112,Plateau,Kanke,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+112,Plateau,Kanke,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+113,Plateau,Langtang North,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+113,Plateau,Langtang North,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+113,Plateau,Langtang North,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+114,Plateau,Langtang South,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+114,Plateau,Langtang South,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+114,Plateau,Langtang South,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+115,Plateau,Mangu,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+115,Plateau,Mangu,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+115,Plateau,Mangu,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+116,Plateau,Mikang,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+116,Plateau,Mikang,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+116,Plateau,Mikang,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+117,Plateau,Pankshin,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+117,Plateau,Pankshin,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+117,Plateau,Pankshin,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+118,Plateau,Qua'an Pan,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+118,Plateau,Qua'an Pan,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+118,Plateau,Qua'an Pan,Groundnut,3,1,1.0,Suitable,3,Highly Recommended
+119,Plateau,Riyom,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+119,Plateau,Riyom,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+119,Plateau,Riyom,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+120,Plateau,Shendam,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+120,Plateau,Shendam,Cassava,1,1,1.0,Suitable,2,Highly Recommended
+120,Plateau,Shendam,Cowpea,2,1,1.0,Suitable,3,Highly Recommended
+121,Plateau,Wase,Bambara_groundnut,0,1,1.0,Suitable,1,Highly Recommended
+121,Plateau,Wase,Cowpea,2,1,1.0,Suitable,2,Highly Recommended
+121,Plateau,Wase,Groundnut,3,1,1.0,Suitable,3,Highly Recommended

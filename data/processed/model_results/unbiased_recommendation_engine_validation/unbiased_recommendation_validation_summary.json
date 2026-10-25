@@ -1,0 +1,88 @@
+{
+    "validation_status": "IMPROVED - Recommendation bias has been substantially reduced, although some crop-level limitations remain.",
+    "project_root": "C:\\Users\\DELL\\Desktop\\projects\\Emmanuel Alia\\CropRecommendation",
+    "training_records": 1210,
+    "recommendation_records": 1210,
+    "locations_analyzed": 121,
+    "crops_analyzed": 10,
+    "crops": [
+        "Bambara_groundnut",
+        "Cassava",
+        "Cowpea",
+        "Groundnut",
+        "Maize",
+        "Millet",
+        "Rice",
+        "Sorghum",
+        "Soybean",
+        "Yam"
+    ],
+    "original_engine": {
+        "dominant_crop": "Bambara_groundnut",
+        "dominance_percentage": 80.99173553719008
+    },
+    "rebuilt_engine": {
+        "dominant_crop": "Maize",
+        "dominance_percentage": 47.93388429752066
+    },
+    "dominance_change": {
+        "absolute_percentage_point_reduction": 33.05785123966942,
+        "relative_percentage_reduction": 40.81632653061224
+    },
+    "top1": {
+        "coverage": 6,
+        "coverage_percentage": 60.0,
+        "entropy": 1.2813258763989772,
+        "normalized_entropy": 0.7151215876933592,
+        "hhi": 0.34061881019056073,
+        "effective_number_of_crops": 3.6014115880479003,
+        "dominant_crop": "Maize",
+        "dominant_percentage": 47.93388429752066
+    },
+    "top3": {
+        "coverage": 9,
+        "coverage_percentage": 90.0,
+        "entropy": 1.6262019720299994,
+        "normalized_entropy": 0.7401164126798122,
+        "hhi": 0.22880191850890574,
+        "effective_number_of_crops": 5.084526824778972
+    },
+    "top5": {
+        "coverage": 9,
+        "coverage_percentage": 90.0,
+        "entropy": 1.8603968613946302,
+        "normalized_entropy": 0.8467031001674219,
+        "hhi": 0.16869612731370806,
+        "effective_number_of_crops": 6.4262866104958585
+    },
+    "excluded_crops": {
+        "top1": [
+            "Cowpea",
+            "Groundnut",
+            "Sorghum",
+            "Soybean"
+        ],
+        "top3": [
+            "Sorghum"
+        ],
+        "top5": [
+            "Sorghum"
+        ]
+    },
+    "location_diversity": {
+        "mean_unique_crops_top3": 3.0,
+        "mean_unique_crops_top5": 5.0
+    },
+    "positive_findings": [
+        "No single crop accounts for more than 50% of Top-1 recommendations.",
+        "Top-1 recommendation dominance decreased after rebuilding the recommendation engine.",
+        "Top-1 recommendation distribution has moderate-to-high diversity.",
+        "Top-1 concentration is below the high-concentration threshold."
+    ],
+    "warnings": [
+        "4 crop(s) never appear as a Top-1 recommendation.",
+        "1 crop(s) never appear in Top-3 recommendations.",
+        "1 crop(s) never appear in Top-5 recommendations."
+    ],
+    "output_directory": "C:\\Users\\DELL\\Desktop\\projects\\Emmanuel Alia\\CropRecommendation\\data\\processed\\model_results\\unbiased_recommendation_engine_validation"
+}

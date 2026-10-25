@@ -1,0 +1,163 @@
+{% extends "base.html" %}
+{% from "_macros.html" import number_field, sections %}
+
+{% block title %}Crop recommendation | CropWise{% endblock %}
+
+{% block content %}
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <h1 id="hero-title">Know what will grow before you plant.</h1>
+      <p class="hero-text">
+        Enter the climate and soil of a site in North-Central Nigeria. CropWise
+        scores ten staple crops against those conditions and ranks the best fits.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#recommendationForm">Start a ranking</a>
+        <a class="button ghost" href="{{ url_for('about') }}">How it works</a>
+      </div>
+      <ul class="hero-facts" aria-label="Key facts">
+        <li><b>7</b><span>crops scored</span></li>
+        <li><b>33</b><span>site variables</span></li>
+        <li><b>5</b><span>ranked results</span></li>
+      </ul>
+    </div>
+
+    <figure class="landscape">
+      <svg viewBox="0 0 520 440" role="img" aria-labelledby="landscape-title landscape-desc" preserveAspectRatio="xMidYMid slice">
+        <title id="landscape-title">Cross-section of a field</title>
+        <desc id="landscape-desc">Rain, sun, wind and layered soil above and below a growing seedling, one layer for each group of inputs.</desc>
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#cfe6ee"/><stop offset="1" stop-color="#eef5ea"/>
+          </linearGradient>
+          <linearGradient id="top" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#7d5a3a"/><stop offset="1" stop-color="#6b4a2f"/>
+          </linearGradient>
+          <clipPath id="frame"><rect width="520" height="440" rx="22"/></clipPath>
+        </defs>
+        <g clip-path="url(#frame)">
+          <rect width="520" height="440" fill="url(#sky)"/>
+
+          <!-- Temperature: sun -->
+          <circle cx="410" cy="82" r="62" fill="#f2b24a" opacity=".22"/>
+          <circle cx="410" cy="82" r="38" fill="#e8a032"/>
+
+          <!-- Humidity, sunlight, wind: clouds and wind lines -->
+          <g fill="#ffffff" opacity=".92">
+            <ellipse cx="150" cy="66" rx="50" ry="17"/><ellipse cx="124" cy="56" rx="26" ry="17"/><ellipse cx="170" cy="52" rx="30" ry="20"/>
+          </g>
+          <g fill="none" stroke="#5d8a8c" stroke-width="3" stroke-linecap="round" opacity=".85">
+            <path d="M286 128 h96 a14 14 0 1 0 -14 -14"/>
+            <path d="M262 152 h138 a13 13 0 1 1 -13 13"/>
+          </g>
+
+          <!-- Rainfall -->
+          <g stroke="#2f6f9f" stroke-width="3" stroke-linecap="round" opacity=".9">
+            <path d="M96 100 l-7 20"/><path d="M128 108 l-7 20"/><path d="M160 98 l-7 20"/>
+            <path d="M80 140 l-7 20"/><path d="M112 148 l-7 20"/><path d="M144 138 l-7 20"/><path d="M176 146 l-7 20"/>
+          </g>
+
+          <!-- Location pin -->
+          <g transform="translate(260 120)">
+            <path d="M0 0 c-14 -22 -24 -32 -24 -48 a24 24 0 1 1 48 0 c0 16 -10 26 -24 48z" fill="#16201a" opacity=".92"/>
+            <circle cx="0" cy="-48" r="9" fill="#fff"/>
+          </g>
+
+          <!-- Soil horizons -->
+          <path d="M0 214 q65 -22 130 -6 t130 0 t130 4 t130 -6 V440 H0z" fill="url(#top)"/>
+          <path d="M0 292 q70 -14 140 0 t140 2 t120 -4 t120 2 V440 H0z" fill="#573a24"/>
+          <path d="M0 360 q80 -12 160 2 t160 -2 t200 4 V440 H0z" fill="#3f2a1a"/>
+
+          <!-- Seedling -->
+          <g>
+            <path d="M260 214 V170" stroke="#2f7d4f" stroke-width="5" stroke-linecap="round"/>
+            <path d="M260 186 c-30 -2 -48 -18 -50 -40 c28 -2 48 12 50 40z" fill="#3a9a63"/>
+            <path d="M260 176 c26 0 44 -14 48 -36 c-26 -2 -46 10 -48 36z" fill="#53b37a"/>
+          </g>
+
+          <!-- Roots -->
+          <g fill="none" stroke="#d6b98f" stroke-width="2.5" stroke-linecap="round" opacity=".85">
+            <path d="M260 214 v70"/><path d="M260 238 q-26 14 -40 40"/><path d="M260 250 q24 12 38 34"/>
+            <path d="M260 284 q-14 20 -12 44"/><path d="M260 284 q16 22 20 46"/>
+          </g>
+          <g fill="#c9a779" opacity=".55"><circle cx="90" cy="260" r="4"/><circle cx="410" cy="248" r="3.5"/><circle cx="360" cy="320" r="4"/><circle cx="130" cy="330" r="3"/><circle cx="440" cy="390" r="4"/><circle cx="70" cy="400" r="3.5"/></g>
+        </g>
+      </svg>
+      <ul class="landscape-key" aria-label="Jump to a form section">
+        {% for s in sections %}<li><a href="#sec-{{ s.key }}" data-domain="{{ s.key }}">{{ s.title }}</a></li>{% endfor %}
+      </ul>
+      <figcaption class="landscape-caption">Each layer of the site becomes a section of the form below.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<div class="container page-space">
+  {% if startup_error %}
+  <div class="alert" role="alert"><strong>Could not process the request.</strong> {{ startup_error }}</div>
+  {% endif %}
+
+  <div class="form-layout">
+    <aside class="rail" aria-label="Form progress">
+      <h2>Site conditions</h2>
+      <p>All 33 fields are required.</p>
+      <nav class="rail-nav" aria-label="Jump to section">
+        {% for s in sections %}
+        <a href="#sec-{{ s.key }}" data-domain="{{ s.key }}" data-rail="{{ s.key }}">
+          <span class="rail-dot" aria-hidden="true"></span>
+          <span class="rail-label">{{ s.title }}</span>
+          <span class="rail-count" data-count="{{ s.key }}">0/{{ s.fields|length }}</span>
+        </a>
+        {% endfor %}
+      </nav>
+      <div class="progress" aria-live="polite">
+        <span id="progressText">0 of 33 filled</span>
+        <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+      </div>
+    </aside>
+
+    <div class="form-main">
+      {% if locations %}
+      <div class="profile-bar">
+        <label for="locationSelect">Start from a saved location</label>
+        <select id="locationSelect">
+          <option value="">Choose a location</option>
+          {% for location in locations %}
+          <option value="{{ location.location_id }}">
+            Location {{ location.location_id }}
+            {%- if location.state %} — {{ location.state }}{% endif %}
+            {%- if location.lga %} / {{ location.lga }}{% endif %}
+          </option>
+          {% endfor %}
+        </select>
+        <button type="button" class="button secondary" id="loadProfileBtn">Load location</button>
+      </div>
+      {% endif %}
+
+      <form action="{{ url_for('recommend') }}" method="POST" id="recommendationForm">
+        {% for s in sections %}
+        <fieldset class="form-section" id="sec-{{ s.key }}" data-domain="{{ s.key }}" data-total="{{ s.fields|length }}">
+          <legend>
+            <h3>{{ s.title }}</h3>
+            <p>{{ s.blurb }}</p>
+          </legend>
+          <div class="form-grid {{ s.cols }}">
+            {% for name, label, unit in s.fields %}
+              {{ number_field(name, label, unit, form_data.get(name, '') if form_data else '') }}
+            {% endfor %}
+          </div>
+        </fieldset>
+        {% endfor %}
+
+        <div class="form-actions">
+          <div class="actions-secondary">
+            <button type="button" class="button secondary" id="fillDemoBtn">Use sample values</button>
+            <button type="reset" class="button ghost">Clear form</button>
+          </div>
+          <button type="submit" class="button primary large">Rank crops</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

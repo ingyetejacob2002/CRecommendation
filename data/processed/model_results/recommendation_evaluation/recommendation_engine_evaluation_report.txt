@@ -1,0 +1,40 @@
+CROP RECOMMENDATION ENGINE EVALUATION REPORT
+============================================================
+
+Total locations: 121
+Total crops: 10
+Total predictions: 1210
+Recommended predictions: 565
+Recommended percentage: 46.69%
+Mean suitability probability: 0.4644
+High-confidence predictions: 556
+High-confidence percentage: 45.95%
+Unique top-3 combinations: 5
+
+TOP-1 CROP DISTRIBUTION
+----------------------------------------
+crop
+Bambara_groundnut    98
+Rice                 12
+Cassava              10
+Maize                 1
+
+RECOMMENDATION CATEGORY DISTRIBUTION
+----------------------------------------
+                         count  percentage
+recommendation_category                   
+Not Recommended            645       53.31
+Highly Recommended         556       45.95
+Recommended                  7        0.58
+Moderately Suitable          2        0.17
+
+SUITABILITY PROBABILITY STATISTICS
+----------------------------------------
+count    1210.000000
+mean        0.464442
+std         0.497307
+min         0.000000
+25%         0.000000
+50%         0.000000
+75%         1.000000
+max         1.000000

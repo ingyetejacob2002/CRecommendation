@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}System status | CropWise{% endblock %}
+
+{% block content %}
+<div class="container page-space">
+  <header class="results-header">
+    <div>
+      <h1>System status</h1>
+      <p>Whether the model and datasets loaded when the app started.</p>
+    </div>
+    <a href="{{ url_for('health', format='json') }}" class="button secondary">View as JSON</a>
+  </header>
+
+  <section class="status-banner {{ 'ok' if health.status == 'ok' else 'bad' }}" role="status">
+    <strong>{{ 'All systems ready' if health.status == 'ok' else 'Something failed at startup' }}</strong>
+    <span>{{ 'CropWise can rank crops.' if health.status == 'ok' else 'CropWise cannot rank crops until this is fixed.' }}</span>
+  </section>
+
+  <section class="panel">
+    <ul class="check-list">
+      {% for label, ok, optional in [
+        ("Suitability model", health.model_loaded, false),
+        ("Training dataset", health.training_dataset_loaded, false),
+        ("Recommendation dataset", health.recommendation_dataset_loaded, false),
+        ("Recommendation engine", health.engine_loaded, true)] %}
+      <li class="{{ 'ok' if ok else ('neutral' if optional else 'bad') }}">
+        <span class="check-dot" aria-hidden="true"></span>
+        <span>{{ label }}{% if optional %} <small>(optional)</small>{% endif %}</span>
+        <strong>{{ 'Loaded' if ok else 'Not loaded' }}</strong>
+      </li>
+      {% endfor %}
+    </ul>
+    {% if health.error %}
+    <div class="alert" role="alert"><strong>Startup error</strong><pre>{{ health.error }}</pre></div>
+    {% endif %}
+  </section>
+</div>
+{% endblock %}

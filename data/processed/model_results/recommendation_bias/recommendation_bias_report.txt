@@ -1,0 +1,26 @@
+CROP RECOMMENDATION BIAS ANALYSIS REPORT
+======================================================================
+
+DATASET SUMMARY
+Locations: 121
+Crops: 10
+Predictions: 1210
+
+TOP-1 DOMINANCE
+Dominant crop: Bambara_groundnut
+Top-1 count: 98
+Top-1 dominance: 80.99%
+
+TOP-3 DIVERSITY
+Unique top-3 combinations: 5
+Total locations: 121
+Diversity percentage: 4.13%
+
+HIGH-PROBABILITY PREDICTIONS
+Count >= 0.81: 556
+Percentage >= 0.81: 45.95%
+
+DIAGNOSIS
+1. HIGH TOP-1 DOMINANCE: Bambara_groundnut accounts for 80.99% of top-1 recommendations.
+2. LOW TOP-3 DIVERSITY: Few unique crop combinations occur across locations.
+3. Probability distribution is not excessively concentrated above 0.81.

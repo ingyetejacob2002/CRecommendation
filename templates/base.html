@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{% block meta_description %}CropWise ranks the most suitable crops for North-Central Nigeria from climate and soil conditions.{% endblock %}">
+    <meta name="theme-color" content="#0f3d2c">
+    <title>{% block title %}CropWise{% endblock %}</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    {% block head_scripts %}{% endblock %}
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="navbar">
+        <div class="container nav-inner">
+            <a class="brand" href="{{ url_for('index') }}" aria-label="CropWise home">
+                <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+                CropWise
+            </a>
+            <nav aria-label="Primary">
+                <a href="{{ url_for('index') }}" {% if request.endpoint in ('index', 'recommend') %}aria-current="page"{% endif %}>Recommend</a>
+                <a href="{{ url_for('about') }}" {% if request.endpoint == 'about' %}aria-current="page"{% endif %}>About</a>
+                <a href="{{ url_for('health') }}" {% if request.endpoint == 'health' %}aria-current="page"{% endif %}>System status</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">{% block content %}{% endblock %}</main>
+
+    <footer>
+        <div class="container footer-inner">
+            <div>
+                <strong>CropWise</strong>
+                <p>Crop suitability and recommendation for North-Central Nigeria.</p>
+            </div>
+            <p>Research prototype. Built with Flask and scikit-learn.</p>
+        </div>
+    </footer>
+
+    <div class="toast-region" id="toastRegion" role="status" aria-live="polite"></div>
+
+    {% block scripts %}{% endblock %}
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</body>
+</html>

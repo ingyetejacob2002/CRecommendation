@@ -1,0 +1,11 @@
+crop,total_predictions,recommended_predictions,recommendation_percentage
+Bambara_groundnut,121,93.0,76.86
+Cassava,121,84.0,69.42
+Cowpea,121,103.0,85.12
+Groundnut,121,103.0,85.12
+Maize,121,61.0,50.41
+Millet,121,3.0,2.48
+Rice,121,12.0,9.92
+Sorghum,121,0.0,0.0
+Soybean,121,103.0,85.12
+Yam,121,3.0,2.48

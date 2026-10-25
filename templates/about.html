@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% from "_macros.html" import sections %}
+
+{% block title %}About | CropWise{% endblock %}
+
+{% block content %}
+<div class="container page-space">
+
+  <header class="about-hero">
+    <h1>A second opinion on what to plant, built from climate and soil data.</h1>
+    <p>CropWise is a research prototype. It uses a machine-learning model to score ten crops against the conditions at a site in North-Central Nigeria, then ranks them.</p>
+  </header>
+
+  <div class="result-grid">
+    <section class="panel" aria-labelledby="how-title">
+      <h2 id="how-title">How it works</h2>
+      <ol class="steps">
+        <li><b>1</b><span>You supply climate and soil variables for a site.</span></li>
+        <li><b>2</b><span>The model estimates suitability for each supported crop.</span></li>
+        <li><b>3</b><span>Probabilities are sorted into a ranked list.</span></li>
+        <li><b>4</b><span>You see the best match and the top five alternatives.</span></li>
+      </ol>
+    </section>
+
+    <section class="panel" aria-labelledby="crops-title">
+      <h2 id="crops-title">Supported crops</h2>
+      <ul class="crop-tags">
+        {% for crop in ["Bambara groundnut","Cassava","Cowpea","Groundnut","Rice","Soybean","Yam"] %}
+        <li>{{ crop }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+
+  <section class="panel inputs-panel" aria-labelledby="inputs-title">
+    <h2 id="inputs-title">What the model looks at</h2>
+    <p class="lead">Thirty-three variables, grouped into five layers. Each layer has its own colour throughout the app.</p>
+    <ul class="layer-list">
+      {% for s in sections %}
+      <li data-domain="{{ s.key }}">
+        <strong>{{ s.title }}</strong>
+        <span>{{ s.fields|length }} variable{{ '' if s.fields|length == 1 else 's' }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="notice" role="note">
+      <strong>Decision support only.</strong>
+      Scores compare crops against each other for one site. They do not predict yield, so confirm choices with a field assessment.
+    </div>
+  </section>
+</div>
+{% endblock %}
